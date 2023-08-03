@@ -99,7 +99,7 @@ Given the aforementioned Storage Vyper contract, the storage slots are allocated
 
 Deps:
 
-- Vyper
+- [Vyper](https://github.com/vyperlang/vyper)
 
 ```bash
 vyper src/storage/Storage.vy > src/storage/Storage.layout.json
