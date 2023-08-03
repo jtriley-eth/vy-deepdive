@@ -1,0 +1,28 @@
+{
+  "storage_layout": {
+    "nonreentrant.lock0": { "type": "nonreentrant lock", "slot": 0 },
+    "nonreentrant.lock1": { "type": "nonreentrant lock", "slot": 1 },
+    "a": { "type": "uint256", "slot": 2 },
+    "b": { "type": "uint8", "slot": 3 },
+    "c": { "type": "uint8", "slot": 4 },
+    "my_struct": { "type": "MyStruct", "slot": 5 },
+    "my_static_uint256_list": { "type": "uint256[3]", "slot": 8 },
+    "my_static_uint8_list": { "type": "uint8[3]", "slot": 11 },
+    "my_static_struct_list": { "type": "MyStruct[3]", "slot": 14 },
+    "my_dynamic_uint256_list": { "type": "DynArray[uint256, 3]", "slot": 23 },
+    "my_dynamic_uint8_list": { "type": "DynArray[uint8, 3]", "slot": 27 },
+    "my_dynamic_struct_list": { "type": "DynArray[MyStruct, 3]", "slot": 31 },
+    "my_mapping": { "type": "HashMap[uint256, uint256]", "slot": 41 },
+    "my_dynamic_list_mapping": {
+      "type": "HashMap[uint256, DynArray[uint256, 3]]",
+      "slot": 42
+    },
+    "my_dynamic_struct_list_mapping": {
+      "type": "HashMap[uint256, DynArray[MyStruct, 3]]",
+      "slot": 43
+    },
+    "my_dynamic_bytes": { "type": "Bytes[2]", "slot": 44 },
+    "my_long_dynamic_bytes": { "type": "Bytes[40]", "slot": 46 }
+  },
+  "code_layout": {}
+}
