@@ -8,7 +8,7 @@ using Vyper for Vm;
 
 contract S is Script {
     function run() public {
-        Vyper.compile("src/memory/temp.vy").create().call(
+        Vyper.compile("src/memory/Overwrite.vy").create().call(
             abi.encodeWithSignature("overwrite(bool)", (true))
         );
     }

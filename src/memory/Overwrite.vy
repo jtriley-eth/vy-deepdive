@@ -8,6 +8,8 @@ def overwrite(gib: bool) -> uint256:
     if gib:
         b: uint256 = 2
 
-    c: uint256 = 3
+    c: uint256[2] = [3, 4]
 
-    return c
+    d: uint256 = 5
+
+    return d
